@@ -11,6 +11,15 @@ const config: Config = {
       colors: {
         'bg-color': 'var(--primaryBgColor)',
         'font-color': 'var(--primaryFontColor)',
+      },
+      borderWidth: {
+        'thin': '1px',
+      },
+      backgroundImage: {
+        'grade': 'radial-gradient(circle at bottom right, black 10%, transparent, transparent)',
+      },
+      boxShadow: {
+        'link-shadow': '5px 5px 10px silver',
       }
     },
   },

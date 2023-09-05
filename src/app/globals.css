@@ -22,9 +22,5 @@ img {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(90deg, var(--primaryBgColor) 20%, black, var(--primaryBgColor) 80%);
-}
-
-h1 {
-  text-shadow: 1px 1px 0px rgb(120, 121, 123);
+  background: linear-gradient(180deg, var(--primaryBgColor) 1%, black);
 }

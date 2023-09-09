@@ -4,11 +4,11 @@ import HomePageLink from '../components/HomePageLink.component';
 
 export default function Home() {
   return (
-    <main className='max-w-[900px] mx-auto w-full'>
+    <main className='mx-auto w-full'>
         <section className='flex flex-col items-center justify-evenly min-h-[70vh]'>
-          <HomePageLink href={'/build-options'} label={'Builds'}/>
-          <HomePageLink href={'/gods-or-items'} label={'Gods & Items Info'} />
-          <HomePageLink href={'/pro-links'} label={'Learn from the Pros'} />
+          <HomePageLink href={'/build-options'} title={'Builds'}/>
+          <HomePageLink href={'/gods-or-items'} title={'Gods & Items'} />
+          <HomePageLink href={'/pro-links'} title={'Learn from Pros'} />
         </section>
     </main>
   )

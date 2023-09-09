@@ -5,6 +5,7 @@
 :root {
   --primaryBgColor: hsl(198, 71%, 11%);
   --primaryFontColor: hsl(45deg 80% 40%);
+  --neutralFontColor: hsl(60, 41%, 95%);
 }
 
 *,
@@ -15,6 +16,12 @@
   box-sizing: border-box;
 }
 
+html {
+  background: linear-gradient(hsla(220, 42%, 14%, 0.95), hsla(220, 42%, 14%, 0.95)),url(../resources/charon.png);
+  background-size: cover;
+  background-position: center bottom;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -22,5 +29,8 @@ img {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(180deg, var(--primaryBgColor) 1%, black);
+}
+
+.home-page-link {
+  box-shadow: 2px 2px 5px 0 #bb800b;
 }

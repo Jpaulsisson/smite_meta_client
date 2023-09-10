@@ -23,7 +23,7 @@ const config: Config = {
       },
       boxShadow: {
         'link-shadow': '5px 5px 10px silver',
-      }
+      },
     },
   },
   plugins: [],

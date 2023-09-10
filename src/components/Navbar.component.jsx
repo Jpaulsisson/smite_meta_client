@@ -14,12 +14,12 @@ export default function Navbar() {
   return (
     <nav className={`mt-2 grid grid-cols-10 items-center gap-2 ${exoFont.className}`}>
       <h1 className={`col-start-4 col-end-8 text-font-color text-3xl flex flex-col items-center`}>
-        <Image src={SmiteLogo} alt='Smite logo'/>
+        <Image src={SmiteLogo} alt='Smite logo' priority='blur' />
         META
       </h1>
       <h2 className="text-neutral text-3xl hidden md:block">Welcome</h2>
       <a className="col-start-9">
-        <Image src={AvatarPlaceHolder}  className='max-h-[75px]' />
+        <Image src={AvatarPlaceHolder} alt='avatar placeholder'  className='max-h-[75px]' />
       </a>
     </nav>
   )

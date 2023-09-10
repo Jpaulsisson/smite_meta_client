@@ -17,7 +17,7 @@
 }
 
 html {
-  background: linear-gradient(hsla(220, 42%, 14%, 0.95), hsla(220, 42%, 14%, 0.95)),url(../resources/charon.png);
+  background: linear-gradient(hsla(220, 42%, 14%, 0.92), hsla(220, 42%, 14%, 0.92)),url(../resources/charon.png);
   background-size: cover;
   background-position: center bottom;
 }

@@ -18,8 +18,8 @@
 
 html {
   background: linear-gradient(hsla(220, 42%, 14%, 0.92), hsla(220, 42%, 14%, 0.92)),url(../resources/charon.png);
-  background-size: cover;
-  background-position: center bottom;
+  background-size: 400%;
+  background-position: top;
 }
 
 img {
@@ -33,4 +33,11 @@ body {
 
 .home-page-link {
   box-shadow: 2px 2px 5px 0 #bb800b;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    background-size: cover;
+    background-position: top;
+  }
 }

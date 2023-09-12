@@ -1,15 +1,16 @@
 import Navbar from '../components/Navbar.component';
 import HomePageLink from '../components/HomePageLink.component';
 import BuildsDropdown from '../components/BuildsDropdown/BuildsDropdown.component';
-
+import GodsItemsDropdown from '../components/GodsItemsDropdown/GodsItemsDropdown.component';
+import ProsDropdown from '../components/ProsDropdown/ProsDropdown.component';
 
 export default function Home() {
   return (
     <main className='mx-auto w-full'>
-        <section className='flex flex-col items-center justify-evenly min-h-[70vh]'>
+        <section className='flex flex-col md:flex-row md:max-w-[80%] md:mx-auto items-center justify-evenly min-h-[70vh] gap-8'>
           <BuildsDropdown />
-          <HomePageLink href={'/gods-or-items'} title={'Gods & Items'} />
-          <HomePageLink href={'/pro-links'} title={'Learn from Pros'} />
+          <GodsItemsDropdown />
+          <ProsDropdown />
         </section>
     </main>
   )

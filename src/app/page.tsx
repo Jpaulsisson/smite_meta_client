@@ -1,5 +1,4 @@
-import Navbar from '../components/Navbar.component';
-import HomePageLink from '../components/HomePageLink.component';
+
 import BuildsDropdown from '../components/BuildsDropdown/BuildsDropdown.component';
 import GodsItemsDropdown from '../components/GodsItemsDropdown/GodsItemsDropdown.component';
 import ProsDropdown from '../components/ProsDropdown/ProsDropdown.component';

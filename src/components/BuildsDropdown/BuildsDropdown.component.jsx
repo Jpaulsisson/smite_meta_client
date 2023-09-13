@@ -25,8 +25,8 @@ export default function BuildsDropdown() {
 
   return (
     <>
-      <div className={`${isActive} ${quicksandFont.className} dropdown bg-slate-800 max-w-[700px] w-5/6 aspect-[3.5] md:aspect-[4.25] rounded-md border-[1px] border-slate-950 z-50`}>
-        <button onClick={handleToggle} className={`link w-full h-full text-3xl flex items-center justify-center gap-x-4`}>Builds
+      <div className={`${isActive} ${quicksandFont.className} dropdown bg-slate-800 max-w-[700px] w-5/6 aspect-[3.75] md:aspect-[4.25] rounded-md border-[1px] border-slate-950 z-50`}>
+        <button onClick={handleToggle} className={`link w-full h-full text-3xl flex items-center justify-start p-4 gap-x-4`}>Builds
           <Image src={DropdownArrow} alt='dropdown arrow' width={15} className={`${isActive === 'active' ? 'rotate-0 mix-blend-difference' : '-rotate-90 '}`} />
         </button>
         <div className={`${isActive} dropdown-content w-full h-full grid grid-rows-3 gap-16 text-2xl`}>
